@@ -1,0 +1,49 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "cmd+`",
+    "command": "workbench.action.switchWindow"
+  },
+  { "key": "cmd+n", "command": "explorer.newFile" },
+  { "key": "cmd+shift+n", "command": "explorer.newFolder" },
+  {
+    "key": "ctrl+s",
+    "command": "git.stage",
+    "when": "workbench.scm.active"
+  },
+  {
+    "key": "ctrl+shift+s",
+    "command": "git.unstage",
+    "when": "workbench.scm.active"
+  },
+  {
+    "key": "ctrl+x",
+    "command": "git.clean",
+    "when": "workbench.scm.active"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.compareEditor.nextChange",
+    "when": "textCompareEditorVisible"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.compareEditor.previousChange",
+    "when": "textCompareEditorVisible"
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "workbench.scm.action.focusNextResourceGroup"
+  },
+  {
+    "key": "cmd+shift+a",
+    "command": "git.openChange",
+    "when": "editorTextFocus && !isInDiffEditor"
+  },
+  {
+    "key": "cmd+shift+a",
+    "command": "git.openFile",
+    "when": "editorTextFocus && isInDiffEditor"
+  }
+]
+
